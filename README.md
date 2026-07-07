@@ -1,6 +1,6 @@
 # Pascal's Triangle — Multi-Language Implementation
 
-A clean, consistent implementation of **Pascal's Triangle** in four languages: **C, C++, Java, and Python**. All four versions use the exact same underlying algorithm, so you can compare syntax across languages side by side.
+A clean, consistent implementation of **Pascal's Triangle** in five languages: **C, C++, Java, Python, and JavaScript**. All five versions use the exact same underlying algorithm, so you can compare syntax across languages side by side.
 
 ## 📐 Algorithm
 
@@ -26,6 +26,7 @@ This gives an **O(n²) time, O(n) space** solution — no extra row arrays, no r
 ├── pascals_triangle.cpp    # C++ implementation
 ├── PascalsTriangle.java    # Java implementation
 ├── pascals_triangle.py     # Python implementation
+├── pascals_triangle.js     # JavaScript implementation
 └── README.md
 ```
 
@@ -52,6 +53,11 @@ java PascalsTriangle
 ### Python
 ```bash
 python3 pascals_triangle.py
+```
+
+### JavaScript (Node.js)
+```bash
+node pascals_triangle.js
 ```
 
 Each program will prompt:
@@ -85,6 +91,7 @@ Enter number of rows:
 - **C++**: g++ (C++11 or later)
 - **Java**: JDK 8+
 - **Python**: Python 3.6+
+- **JavaScript**: Node.js 12+
 
 ## 📄 License
 
